@@ -1,0 +1,104 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <form class="mainBox">
+            <div class="line">
+                <h1 class="label">Employment Form</h1>
+            </div>
+            <div class="line">
+                <div class="inputBox45">
+                    <label for="firstName" class="label">First Name</label>
+                    <input type="text" class="input" id="firstName" placeholder="Jan" required>
+                </div>
+                <div class="inputBox45">
+                    <label for="firstName" class="label">Last Name</label>
+                    <input type="text" class="input" id="LastName" placeholder="Kowalski" required>
+                </div>
+            </div>
+            <div class="line">
+                <div class="inputBox30">
+                    <label for="email" class="label">Email</label>
+                    <input type="email" class="input" id="email" placeholder="jk@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                </div>
+                <div class="inputBox30">
+                    <label for="phone" class="label">Phone</label>
+                    <input type="tel" class="input" id="phone" placeholder="505 505 505" pattern="[0-9]{3} [0-9]{3} [0-9]{3}" required>
+                </div>
+                <div class="inputBox30">
+                    <label for="dateOfBirth" class="label">Date of birth</label>
+                    <input type="date" class="input" id="dateOfBirth" max="2022-11-29" required>
+                </div>
+            </div>
+            <div class="columnLine">
+                <label for="gender" class="label">Gender</label>
+                <select id="gender" class="input" required>
+                    <option disabled selected class="displayNone"></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="columnLine">
+                <label for="radioInputsBox" class="label">What are you looking for</label>
+                <div class="inputsBox" id="radioInputsBox">
+                    <div class="width50">
+                        <input type="radio" id="se" name="job" class="radioOption" required>
+                        <label for="se">Software Engineer</label>
+                    </div>
+                    <div class="width50">
+                        <input type="radio" id="ux" name="job" class="radioOption" required>
+                        <label for="ux">UX Designer</label>
+                    </div>
+                    <div class="width50">
+                        <input type="radio" id="as" name="job" class="radioOption" required>
+                        <label for="as">Analytics Specialist</label>
+                    </div>
+                    <div class="width50">
+                        <input type="radio" id="pm" name="job" class="radioOption" required> 
+                        <label for="pm">Project Manager</label>
+                    </div>
+                </div>
+            </div>
+            <div class="columnLine">
+                <label for="langs" class="label">Which programming languages do you know?</label>
+                <div class="inputsBox" id="langs">
+                    <div class="width50">
+                        <input type="checkbox" id="java" name="langs">
+                        <label for="java">Java</label>
+                    </div>
+                    <div class="width50">
+                        <input type="checkbox" id="javascript" name="langs">
+                        <label for="javascript">Javascript</label>
+                    </div>
+                    <div class="width50">
+                        <input type="checkbox" id="c#" name="langs">
+                        <label for="c#">C#</label>
+                    </div>
+                    <div class="width50">
+                        <input type="checkbox" id="kotlin" name="langs">
+                        <label for="kotlin">Kotlin</label>
+                    </div>
+                    <div class="width50">
+                        <input type="checkbox" id="python" name="langs">
+                        <label for="python">Python</label>
+                    </div>
+                    <div class="width50">
+                        <input type="checkbox" id="scala" name="langs">
+                        <label for="scala">Scala</label>
+                    </div>
+                </div>
+            </div>
+            <div class="columnLine">
+                <label for="message" class="label">Message</label>
+                <textarea rows="6" placeholder="&#10  Type your message" class="messageArea" required></textarea>
+            </div>
+            <div class="line">
+                <input type="reset" value="Reset" class="resetButton">
+                <input type="submit" value="Submit" class="submitButton">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

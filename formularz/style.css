@@ -1,0 +1,112 @@
+.page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.test{
+    width: 50px;
+    height: 50px;
+}
+.mainBox{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.columnLine{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inputsBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.inputBox45{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.inputBox30{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+}
+.messageArea{
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 5px 5px 5px 5px;
+    resize: none;
+}
+.resetButton{
+    width: 34%;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+.submitButton{
+    width: 65%;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+.label{
+    color: orangered;
+}
+.displayNone{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .inputBox30{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .inputBox45{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .line{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .inputsBox{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .width50{
+        width: 50%;
+        font-size: 15px;
+    }
+}

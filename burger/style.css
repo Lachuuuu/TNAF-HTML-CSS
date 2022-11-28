@@ -1,0 +1,104 @@
+#kontener {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bulkaGora {
+    background-color: #DEB887;
+    height: 50px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+#bulkaGoraDol {
+    background-color: #D3A15F;
+    height: 10px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.ser {
+    width: 100%;
+    height: 10px;
+    background-color: #FFD700 ;
+    border-bottom: 3px solid #DAA520;
+}
+
+#pomidor {
+    width: 70%;
+    height: 20px;
+    background-color: #FF0000;
+    border-bottom: 3px solid #DC143C;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kotlet {
+    width: 90%;
+    height: 20px;
+    background-color: #CC6633;
+    border-bottom: 3px solid #993300;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cebula {
+    width: 60%;
+    height: 20px;
+    background-color: #800080;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cebulaKolo {
+    height: 18px;
+    width: 14%;
+    margin: 1px;
+    background-color: #DDA0DD;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#miesoKoloKontener {
+    display: flex;
+    justify-content: center;
+}
+
+.miesoKolo {
+    width: 50px;
+    height: 50px;
+    background-color: #A52A2A;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#ogorek {
+    height: 30px;
+    width: 60%;
+    background-color: #90EE90;
+    border-radius: 0px 0px 50px 50px;
+    border-bottom: 10px solid #008000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bulkaDolGora {
+    background-color: #D3A15F;
+    height: 10px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+#bulkaDol {
+    background-color: #DEB887;
+    height: 50px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+#talerz {
+    background-color: #C0C0C0;
+    height: 10px;
+    border-radius: 0px 0px 20px 20px;
+    border-top: 10px solid #A2A2A2;
+}
